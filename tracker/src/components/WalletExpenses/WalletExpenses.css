@@ -1,0 +1,102 @@
+.wallet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #626262;
+  height: 269px;
+  width: 90%;
+}
+
+.wallet {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 181px;
+  width: 355px;
+  background-color: #9b9b9b;
+  border-radius: 10px;
+}
+
+.income-amount {
+  color: #9dff5b;
+}
+
+.expenses-amount {
+  color: #f4bb4a;
+}
+.income-btn {
+  background-color: #9dff5b;
+  outline: none;
+  border: none;
+  width: 167px;
+  height: 38px;
+  border-radius: 10px;
+  color: white;
+}
+
+.expenses-btn {
+  background-color: rgba(255, 149, 149, 1);
+  outline: none;
+  border: none;
+  width: 167px;
+  height: 38px;
+  border-radius: 10px;
+  color: white;
+}
+
+.chart-wallet {
+  height: 100%;
+  width: 355px;
+}
+
+.income-form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.income-input {
+  width: 217px;
+  height: 41px;
+  border-radius: 10px;
+  color: black;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(145, 145, 145, 1);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  box-sizing: border-box;
+}
+
+.addIcome-btn {
+  width: 120px;
+  height: 41px;
+  color: white;
+  background-color: rgba(244, 187, 74, 1);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 10px 10px 0px rgba(145, 145, 145, 1);
+  box-sizing: border-box;
+}
+
+.cancelIcome-btn {
+  width: 90px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(145, 145, 145, 1);
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.modal-income-heading {
+    margin: 0px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    color: black;
+}
