@@ -42,21 +42,23 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <h1 className="main-heading">Expenses Tracker</h1>
-        <WalletExpenses
-          categories={categories}
-          expenses={expenses}
-          setExpenses={setExpenses}
-          walletBalance={walletBalance}
-          setWalletBalance={setWalletBalance}
-          totalExpenses={totalExpenses}
-          handleExpensesUpdatedList={handleExpensesUpdatedList}
-        />
+      <WalletExpenses
+        categories={categories}
+        expenses={expenses}
+        setExpenses={setExpenses}
+        walletBalance={walletBalance}
+        setWalletBalance={setWalletBalance}
+        totalExpenses={totalExpenses}
+        handleExpensesUpdatedList={handleExpensesUpdatedList}
+      />
+      {expenses.length > 0 && (
         <ExpenseTable
           expenses={expenses}
           setExpenses={setExpenses}
           categories={categories}
           handleExpensesUpdatedList={handleExpensesUpdatedList}
         />
+      )}
     </div>
   );
 }
