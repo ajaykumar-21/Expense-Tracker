@@ -95,25 +95,19 @@
 }
 
 .modal-heading {
-    margin: 0px;
-    font-family: Ubuntu;
-    font-weight: 700;
-    color: black;
+  margin: 0px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  color: black;
 }
 
-.modal-form-expenses{
+.modal-form-expenses {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 10px; */
-  input, button {
+  input,
+  button {
     margin: 10px;
   }
 }
-
-/* .gap {
-  input {
-    margin-right: 20px;
-  }
-} */

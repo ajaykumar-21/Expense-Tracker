@@ -5,6 +5,7 @@ import Modal from "react-modal";
 Modal.setAppElement("#root");
 
 function WalletExpenses({
+  categories,
   expenses,
   setExpenses,
   walletBalance,
@@ -22,14 +23,6 @@ function WalletExpenses({
   });
   const [isIncomeModalOpen, setIncomeModalopen] = useState(false);
   const [isExpensesModalOpen, setExpensesModalOpen] = useState(false);
-  const categories = [
-    "Food",
-    "Entertainment",
-    "Travel",
-    "Shopping",
-    "Grocery",
-    "Others",
-  ];
 
   const handleIncomeInputChange = (e) => {
     setNewIncome(e.target.value);
@@ -99,7 +92,6 @@ function WalletExpenses({
       borderRadius: "10px",
       border: "border: 1px solid rgba(255, 255, 255, 0.18)",
       boxShadow: " 0 8px 12px rgba(0, 0, 0, 0.1)",
-      //   backdropFilter: "blur(10px)",
     },
   };
 
@@ -138,16 +130,15 @@ function WalletExpenses({
         </div>
       </div>
       <div className="chart-wallet">
-        <RoundChart expenses={expenses}/>
+        <RoundChart expenses={expenses} />
       </div>
-      {/*Modal Add Income*/}
+
       <Modal
         isOpen={isIncomeModalOpen}
         onRequestClose={() => setIncomeModalopen(false)}
         style={modalStyle}
         contentLabel="Add New Income"
       >
-        {/* <div> */}
         <h2 className="modal-heading">Add Balance</h2>
         <form onSubmit={addIncome}>
           <div className="income-form">
@@ -173,10 +164,8 @@ function WalletExpenses({
             </div>
           </div>
         </form>
-        {/* </div> */}
       </Modal>
 
-      {/*  Modal for adding expenses */}
       <Modal
         isOpen={isExpensesModalOpen}
         onRequestClose={() => setExpensesModalOpen(false)}

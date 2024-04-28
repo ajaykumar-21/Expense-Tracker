@@ -1,0 +1,20 @@
+.top-expenses-heading {
+  width: 261px;
+  height: 22px;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.line-bar-chart {
+  width: auto;
+  height: 360px;
+  background-color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,131 @@
+.transactions-main-conatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.table-container {
+  width: 60%;
+  height: auto;
+}
+
+.Transactions-section {
+  width: 738.33px;
+  height: auto;
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+.Transactions-heading {
+  width: 261px;
+  height: 22px;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.list-container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(155, 155, 155, 1);
+}
+
+.left-transactions-side {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-heading {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.date-heading {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: rgba(155, 155, 155, 1);
+}
+
+.category-icons {
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 15px;
+  background: rgba(217, 217, 217, 1);
+}
+
+.right-transactions-side {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.expense-price {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  text-align: left;
+  color: rgba(244, 187, 74, 1);
+}
+
+.expense-delete-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: red;
+}
+
+.expense-edit-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: rgba(244, 187, 74, 1);
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-prev-btn {
+  border: none;
+  width: 50px;
+  height: 37px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.pagination-next-btn {
+  border: none;
+  width: 50px;
+  height: 37px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.linechart-section {
+  width: 450px;
+  height: auto;
+}
